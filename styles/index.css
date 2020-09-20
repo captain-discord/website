@@ -1,0 +1,57 @@
+.hero.is-info,
+.hero.is-info .navbar-menu {
+	background-color: #7289DA;
+}
+
+.hero.is-info a.navbar-item:hover {
+	background-color: #687ec5;
+}
+
+.button.is-info.is-inverted,
+.navbar-dropdown a.navbar-item {
+	color: #7289DA !important;
+}
+
+.button.is-info.is-inverted:hover {
+	color: #687ec5;
+}
+
+img.feature-preview {
+	border-radius: 10px;
+	align-content: center;
+	transition: .4s ease-out;
+	height: auto;
+	max-width: 100%;
+	box-shadow: 0 3px 10px -3px #000;
+}
+img.feature-preview:hover {
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all .4s ease-in-out;
+	overflow: hidden;
+}
+
+h1.feature-title {
+	color: #7289DA;
+	font-size: 25px;
+	margin-bottom: 0;
+	text-align: left;
+}
+p.feature-content {
+	font-size: 15px;
+	text-align: left;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+	border-color: white;
+}
+
+.navbar-item.has-dropdown.is-hoverable a.navbar-link,
+.navbar-item.has-dropdown.is-hoverable a.navbar-link:hover {
+	background-color: #7289DA;
+}
+
+.navbar-dropdown a.navbar-item:hover {
+	background-color: transparent !important;
+	color: #687ec5 !important;
+}
